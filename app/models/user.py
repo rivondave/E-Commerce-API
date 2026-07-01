@@ -6,7 +6,7 @@ from app.core.database import Base
 
 
 class User(Base):
-    __tablename__ = "users"
+    __tablename__ = "users_ecommerce"
 
     id = Column(
         Integer,
