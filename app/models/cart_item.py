@@ -23,7 +23,7 @@ class CartItem(Base):
 
     user_id = Column(
         Integer,
-        ForeignKey("users.id")
+        ForeignKey("users_ecommerce.id")
     )
 
     product_id = Column(
