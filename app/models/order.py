@@ -22,7 +22,7 @@ class Order(Base):
 
     user_id = Column(
         Integer,
-        ForeignKey("users.id")
+        ForeignKey("users_ecommerce.id")
     )
 
     total_amount = Column(
