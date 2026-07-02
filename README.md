@@ -1,3 +1,4 @@
+![Tests](https://github.com/rivondave/E-Commerce-API/actions/workflows/tests.yml/badge.svg)
 # E-Commerce Backend API
 
 A production-style E-Commerce REST API built with FastAPI, PostgreSQL, SQLAlchemy, Docker, and JWT Authentication.
@@ -234,12 +235,12 @@ http://localhost:8000/docs
 
 ## Testing
 
-This project includes automated integration tests using Pytest.
+This project uses Pytest for automated testing.
 
 ### Covered Workflows
 
 - User Registration
-- User Authentication
+- User Login
 - Product Creation
 - Product Retrieval
 - Cart Management
@@ -248,4 +249,4 @@ This project includes automated integration tests using Pytest.
 Run tests locally:
 
 ```bash
-pytest
+python -m pytest
