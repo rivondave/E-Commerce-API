@@ -231,3 +231,21 @@ http://localhost:8000/docs
 
 ```
 ```
+
+## Testing
+
+This project includes automated integration tests using Pytest.
+
+### Covered Workflows
+
+- User Registration
+- User Authentication
+- Product Creation
+- Product Retrieval
+- Cart Management
+- Order Checkout
+
+Run tests locally:
+
+```bash
+pytest
